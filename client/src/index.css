@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   color: aliceblue;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header-text{
+  color: black;
+  font-weight:500;
+  margin-top:7px;
+  font-size: 17px;
+}
+.top-left{
+  position:absolute;
+  /* top:8px; */
+  left:16px;
+  color:black;
+  font-weight:500;
+  font-size: 17px;    
+}
+.tag-card{
+  margin:10px 0 0 20px;
+}
+.card-img-overlay{
+  right:1
+}
+.mdbtooltip{
+  margin:10rem
+}
+h4 {
+  overflow: hidden;
+  text-align: center;
+}
+
+h4:before,
+h4:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+h4:before{
+  right: 0.5em;
+  margin-left: -50%;
+}
+h4:after{
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+
+/* #disqus_thread {
+  position: relative;
+}
+#disqus_thread:after {
+  content: "";
+  display: block;
+  height: 55px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: white;
+} */
